@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/** INTRO **/
+
+#intro-grid {
+justify-content: center;
+}
+
+#intro-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro-nav {
+    display: row;
+    font-weight: 400;
+    color: #0077b6;
+    padding: 0;
+    padding-left: 1rem;
+    justify-content: center;
+}
+
+#intro-name h1 {
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+
+#intro-name p {
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+#intro-portrait img {
+    object-fit: contain;
+    border-radius: 50%;
+    padding: 20px;
+    height: 250px;
+    width: 250px;
+}
+
+
+/** WORK **/
+
+#projects h3 {
+    margin-top: 25px;
+    color: #61a5c2;
+}
+
+#projects p {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: auto;
+    width: 250px;
+  }
+  
+ #projectscard img {
+     margin: auto;
+     height: 250px;
+     width: 250px;
+    border-radius: 5px 5px 0 0;
+  }
+
+  #projects2 {
+      margin-top: 3.5rem;
+  }
