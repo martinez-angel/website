@@ -1,5 +1,10 @@
 /* stylelint-disable selector-list-comma-newline-after */
 
+@fontface {
+    font-family: "mexcellent";
+    src: url("../website/mexcellent rg.otf");
+}
+
 .jtbackimg {
     object-fit: contain;
     background-image: url('imgs/jt-cholla.jpeg');
