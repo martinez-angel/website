@@ -1,9 +1,14 @@
 /* stylelint-disable selector-list-comma-newline-after */
 
-@fontface {
-    font-family: "mexcellent";
-    src: url("../website/mexcellent rg.otf");
+@font-face {
+        font-family: 'mexcellent rg';
+        src: url("mexcellent rg.otf");
 }
+
+.blog-post-title {
+    font-family: 'mexcellent rg';
+}
+
 
 .jtbackimg {
     object-fit: contain;

@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'mexcellent rg';
+    src: url("mexcellent rg.otf");
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c78451;
+}
+
+h1 {
+    font-family: 'mexcellent rg';
+}
+
+#information {
+    justify-content: center;
+    background-color: #bde0fe;
+    border-radius: 5px;
+}
+
