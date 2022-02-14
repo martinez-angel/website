@@ -7,7 +7,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #c78451;
 }
 
 h1 {
@@ -16,7 +15,7 @@ h1 {
 
 #information {
     justify-content: center;
-    background-color: #bde0fe;
+    background-color: #d8f3dc;
     border-radius: 5px;
 }
 
