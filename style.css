@@ -12,12 +12,37 @@ padding-top: 6rem;
     align-items: center;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
 #fg-title {
     font-family: 'Monoton', cursive;
     font-weight: 500;
     margin: 0%;
     display: inline-block;
+    position: relative;
 }
+
+#fg-title::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #0077b6;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+  
+  #fg-title:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
 
 hr {
     margin-top: 6rem;
@@ -34,8 +59,6 @@ h1 {
 
 h2 {
     font-family: 'Roboto Condensed', sans-serif;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
 }
 
 p {
