@@ -1,0 +1,87 @@
+body {
+    background-color: #e6ddde;
+}
+
+.intro {
+padding-top: 6rem;
+}
+
+#intro-nav {
+    font-family: 'Cabin', sans-serif;
+    padding: 0.3rem;
+    align-items: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#fg-title {
+    font-family: 'Monoton', cursive;
+    font-weight: 500;
+    margin: 0%;
+    display: inline-block;
+    position: relative;
+}
+
+#fg-title::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #0077b6;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+  
+  #fg-title:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+
+hr {
+    margin-top: 6rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 5.5rem;
+    color: #fefae0;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+    font-family: 'Cabin', sans-serif;
+}
+
+.img {
+        width: 30%;
+        margin: 1.5%;
+}
+
+.fg-ball {
+    width: 4rem;
+    margin-bottom: 10px;
+}
+
+#project-header {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: 0%;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3.5rem;
+    color: #fefae0;
+}
